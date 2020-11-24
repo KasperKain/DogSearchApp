@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOGS</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>THERE ARE DOGS HERE</h1>
+      <form>
+        <input type="number" id="img-num" value="3" max="50" min="1" />
+        <input type="submit" id="show-dogs" value="Show random dogs" />
+        <p>or</p>
+        <input
+          type="text"
+          id="img-type"
+          placeholder="Type a breed"
+          value="hound"
+        />
+        <input type="submit" id="show-dog" value="Show specific breed" />
+      </form>
+
+      <section id="dog-images"></section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

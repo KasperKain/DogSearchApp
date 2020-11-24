@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+#dog-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  padding: 10px;
+}
